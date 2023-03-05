@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ghdevlab</groupId>
-    <artifactId>BankManagingSystem</artifactId>
+    <artifactId>BankManagementSystem</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>BankManagingSystem</name>
     <description>BankManagingSystem</description>
