@@ -80,7 +80,8 @@ The data structure is as follows:
 3. Open the application.properties file and change the database url, username and password to your database credentials
 4. Run the project
 5. Open Postman and test the endpoints
-
+### Helpers
+Use the file [thunder-collection_BMS.json] in the VSCode Thunder Client extension to test the endpoints.
 
 ## Notes
 This project is just a very simplified showcase on how to create a REST API using java spring boot framework and postgresql database. It does not have any authentication or authorization. It is not meant to be used in production.

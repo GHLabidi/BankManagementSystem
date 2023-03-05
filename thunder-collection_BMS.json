@@ -1,0 +1,384 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "BMS",
+    "dateExported": "2023-03-04T17:24:00.025Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "d7d88ca8-b439-44c1-a7ab-7bed50a83103",
+            "name": "Managers",
+            "containerId": "",
+            "created": "2023-03-04T16:36:37.924Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "1e978ec0-3cd1-4ca4-b60e-ca4956e43b79",
+            "name": "Workers",
+            "containerId": "",
+            "created": "2023-03-04T16:46:51.366Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Clients",
+            "containerId": "",
+            "created": "2023-03-04T16:52:48.251Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "21c21892-7fe7-40ff-a97c-ef553f40eefd",
+            "name": "Transactions",
+            "containerId": "",
+            "created": "2023-03-04T17:02:47.545Z",
+            "sortNum": 50000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "1d319102-673b-4661-ad59-98cfb7523584",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "d7d88ca8-b439-44c1-a7ab-7bed50a83103",
+            "name": "Create Manager",
+            "url": "localhost:8080/api/managers",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-04T16:38:22.885Z",
+            "modified": "2023-03-04T16:42:01.563Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"John\",\n  \"lastName\": \"Bro\",\n  \"email\": \"john.bro@gmail.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "57571946-aac2-480b-b766-4d408cdb8b1c",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "1e978ec0-3cd1-4ca4-b60e-ca4956e43b79",
+            "name": "Create Worker",
+            "url": "localhost:8080/api/workers",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-04T16:46:51.366Z",
+            "modified": "2023-03-04T17:22:20.001Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Jenna\",\n  \"lastName\": \"Sis\",\n  \"email\": \"jenna.sis@gmail.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "39a49cf9-c370-428e-ac6d-c07ae58d1f25",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Create Client",
+            "url": "localhost:8080/api/clients",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-03-04T16:52:48.251Z",
+            "modified": "2023-03-04T17:22:46.752Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\": \"Samir\",\n  \"lastName\": \"Falleh\",\n  \"email\": \"samir.falleh@gmail.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7fa4ee2b-8298-4d8c-95ac-1121a5c80162",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "d7d88ca8-b439-44c1-a7ab-7bed50a83103",
+            "name": "Delete Manager",
+            "url": "localhost:8080/api/managers/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-03-04T16:39:44.678Z",
+            "modified": "2023-03-04T16:40:13.787Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "70d99d25-8859-4941-805b-af0d3d66d395",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "d7d88ca8-b439-44c1-a7ab-7bed50a83103",
+            "name": "Get Managers",
+            "url": "localhost:8080/api/managers",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-04T16:41:35.732Z",
+            "modified": "2023-03-04T16:44:05.386Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4e73dd94-9ecf-4530-9f59-a8f3f512568e",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "1e978ec0-3cd1-4ca4-b60e-ca4956e43b79",
+            "name": "Delete Worker",
+            "url": "localhost:8080/api/workers/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-03-04T16:46:51.367Z",
+            "modified": "2023-03-04T17:22:24.295Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fb4c77d8-05e6-4105-b536-ef8509022bfa",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "1e978ec0-3cd1-4ca4-b60e-ca4956e43b79",
+            "name": "Get Workers",
+            "url": "localhost:8080/api/workers",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-04T16:46:51.369Z",
+            "modified": "2023-03-04T17:22:29.212Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "197f5c3e-f96e-4f8a-a0ea-5badc54c2cfe",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Delete Client",
+            "url": "localhost:8080/api/clients/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-03-04T16:52:48.252Z",
+            "modified": "2023-03-04T17:22:52.484Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d36b57c6-94a1-42c3-9cf0-dbcea451a0d8",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Get Clients",
+            "url": "localhost:8080/api/clients",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-03-04T16:52:48.253Z",
+            "modified": "2023-03-04T17:22:57.359Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "74bf4ac0-67f8-417e-9c50-6977184d7889",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "d7d88ca8-b439-44c1-a7ab-7bed50a83103",
+            "name": "Get Manager By ID",
+            "url": "localhost:8080/api/managers/2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-04T16:44:48.500Z",
+            "modified": "2023-03-04T16:45:04.622Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4aae4e64-0b94-4492-b77d-de260175cec9",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "1e978ec0-3cd1-4ca4-b60e-ca4956e43b79",
+            "name": "Get Worker By ID",
+            "url": "localhost:8080/api/workers/2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-04T16:46:51.370Z",
+            "modified": "2023-03-04T17:22:33.103Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5b9d1e8d-0bcb-45b4-a40b-f774e23f4117",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Get Client By ID",
+            "url": "localhost:8080/api/clients/2",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-03-04T16:52:48.254Z",
+            "modified": "2023-03-04T17:23:02.119Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d95d0fb7-0faf-47b9-a3b0-e445b87f329c",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "d7d88ca8-b439-44c1-a7ab-7bed50a83103",
+            "name": "Assign Worker To Manager",
+            "url": "localhost:8080/api/managers/1/assign_worker/1",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-03-04T16:45:51.025Z",
+            "modified": "2023-03-04T17:09:45.318Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "121b21c3-ab05-4c7c-9bdc-0569fbb7a2c6",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "1e978ec0-3cd1-4ca4-b60e-ca4956e43b79",
+            "name": "Assign Client To Worker",
+            "url": "localhost:8080/api/workers/1/assign_client/1",
+            "method": "PUT",
+            "sortNum": 60000,
+            "created": "2023-03-04T16:46:51.371Z",
+            "modified": "2023-03-04T17:22:37.435Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8b3b3cad-1aa3-41c2-b00a-78175d65e8b9",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Withdraw",
+            "url": "localhost:8080/api/clients/1/withdraw?amount=1000",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2023-03-04T16:56:28.177Z",
+            "modified": "2023-03-04T17:23:06.568Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "amount",
+                    "value": "1000",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c55fd328-4e8a-4ce0-bfe9-82f11c5ec2e5",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Deposit",
+            "url": "localhost:8080/api/clients/1/deposit?amount=100",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-03-04T16:57:41.800Z",
+            "modified": "2023-03-04T17:23:10.470Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "amount",
+                    "value": "100",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "4dc80adf-8bf5-4b23-ab7f-1b1e2c69ff62",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Transfer",
+            "url": "localhost:8080/api/clients/1/transfer?amount=100&receiverId=1",
+            "method": "PUT",
+            "sortNum": 90000,
+            "created": "2023-03-04T16:59:01.291Z",
+            "modified": "2023-03-04T17:23:15.966Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "amount",
+                    "value": "100",
+                    "isPath": false
+                },
+                {
+                    "name": "receiverId",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "87dc38f1-f9e3-4020-a671-10d40289f859",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Get Transactions",
+            "url": "localhost:8080/api/clients/1/transactions",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2023-03-04T17:00:15.732Z",
+            "modified": "2023-03-04T17:23:21.393Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3b568ef4-52f9-4b99-bc62-d1a8bdca033e",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Get Outgoing Transactions",
+            "url": "localhost:8080/api/clients/1/outgoing-transactions",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2023-03-04T17:00:41.944Z",
+            "modified": "2023-03-04T17:23:29.191Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a5dd4ede-4dcf-4621-a33f-eb99b4904be6",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "21c21892-7fe7-40ff-a97c-ef553f40eefd",
+            "name": "Get All Transactions",
+            "url": "localhost:8080/api/transactions",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2023-03-04T17:03:06.684Z",
+            "modified": "2023-03-04T17:23:42.885Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "af525aec-65a2-441f-b3bd-7e1fadbfd635",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "0f5801bf-dcc9-4dd6-9114-78b3b6f2e7a4",
+            "name": "Get Incoming Transactions",
+            "url": "localhost:8080/api/clients/1/incoming-transactions",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-03-04T17:01:16.909Z",
+            "modified": "2023-03-04T17:23:34.206Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "40f970f6-9ef9-4fd4-8845-ca49df22e31f",
+            "colId": "3d6a200e-3127-48ba-a4a2-da897d17e12b",
+            "containerId": "21c21892-7fe7-40ff-a97c-ef553f40eefd",
+            "name": "Get Transaction By Id",
+            "url": "localhost:8080/api/transactions/1",
+            "method": "GET",
+            "sortNum": 120000,
+            "created": "2023-03-04T17:03:56.008Z",
+            "modified": "2023-03-04T17:04:12.818Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
